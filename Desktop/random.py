@@ -10,6 +10,6 @@ def random(n):
 	div=6151
 	while div<n:
     		div=div*div-1
-	for i in range(n):
+	for i in range(5):
    		x=(x*12289)%div
 	return int(x % n)
